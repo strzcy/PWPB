@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Sederhana PHP</title>
     <style>
-        /* Styling modern tema orange */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
@@ -91,7 +90,7 @@
 
 #lin {
     text-align:center;
-    padding-right:23px;
+    padding-right:20px;
 }
     </style>
 </head>
