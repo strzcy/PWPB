@@ -115,7 +115,7 @@ $result = mysqli_query($koneksi, $query);
     <div class="container">
         <h1>Daftar Produk</h1>
 
-        <form action="index.php" method="GET" style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+        <form action="index.php" method="GET" style="display: flex; justify-content: flex-end; mzargin-bottom: 20px;">
             <input type="text" name="search" placeholder="Cari produk..." 
                    value="<?= htmlspecialchars($_GET['search'] ?? '') ?>">
             <button type="submit">Cari</button>
